@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir .tmp
+mkdir .tmp log
 arecord -vv -fdat .tmp/test.wav
 # rec .tmp/test.wav rate 48k silence 1 0.1 3% 1 3.0 3%
 ffmpeg -y -i .tmp/test.wav -ac 1 -ab 48k .tmp/mono.wav
