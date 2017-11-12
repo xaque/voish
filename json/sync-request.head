@@ -1,0 +1,9 @@
+{
+  "config": {
+      "encoding":"LINEAR16",
+      "sampleRateHertz": 48000,
+      "languageCode": "en-US",
+      "enableWordTimeOffsets": false
+  },
+  "audio": {
+      "content": "

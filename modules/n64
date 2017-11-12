@@ -1,0 +1,2 @@
+#!/bin/bash
+retroarch -fL /usr/lib/libretro/mupen64plus_libretro.so "`find ~/Downloads/n64 -iname *$1*.z64`"

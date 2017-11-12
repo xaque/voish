@@ -1,0 +1,2 @@
+#!/bin/bash
+retroarch -fL /usr/lib/libretro/snes9x_libretro.so "`find ~/Downloads/snes -iname *$2*.zip -print -quit`"
