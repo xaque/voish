@@ -1,5 +1,5 @@
 # voish
-## *The CLI of voice assistants.*
+*The CLI of voice assistants.*
 
 
 You must have gcloud installed and setup on your system with permissions for accessing the Google Speech API. You do not need to put an access token anywhere, the script will retrieve it automatically if your paths are setup correctly to run the *gcloud* command.
@@ -24,3 +24,12 @@ These modules I hacked together actually only look at the first word you say to 
 
 
 To add new modules, create a bash script called <whatever you want the initial command to be> and then following arguments that the bash script will take in as $1, $2, $3, etc... arguments. Put this script in the modules directory.
+
+# Dependencies
+The following packages need to be installed for the core to work properly (not including module dependencies).
+
+* google-gloud-sdk
+* alsa-utils
+* sox
+* ffmpeg
+* jq
